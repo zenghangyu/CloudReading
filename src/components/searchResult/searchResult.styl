@@ -1,0 +1,63 @@
+.searchResultBox{
+  padding:0 Fangsize(40);margin-top:Fangsize(60);overflow-y auto;-webkit-overflow-scrolling: touch;
+  .ResultTitleList{
+    clear:both;height:Fangsize(230);
+
+    li{
+      &.Resultimage{
+        width:Fangsize(170);
+        padding-right:Fangsize(40);
+        p{
+          width:Fangsize(170);
+          img{
+            width:100%;height:Fangsize(240);
+          }
+        }
+      }
+
+      &.ResultTitleData{
+        width:63%;
+        p{
+          width:100%;overflow-x:auto;-webkit-overflow-scrolling: touch;white-space: nowrap;color:#e9ebec;Fangfont(14);height:Fangsize(50);line-height:Fangsize(50);position:relative;
+          .spanCtrl{
+            display:block;width:80%;overflow-x:auto;-webkit-overflow-scrolling: touch;white-space: nowrap;position:absolute;top:0;left:Fangsize(80);
+          }
+        }
+        .ResultTitle{
+          color:#5c99d4 !important;Fangfont(19) !important;height:Fangsize(65) !important;line-height:Fangsize(65) !important;
+        }
+      }
+    }
+
+  }
+
+  .ResultContentBox{
+    clear:both;position:relative;padding-bottom:Fangsize(60);
+    .ResultContent{
+      height:Fangsize(340);display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 6;overflow: hidden;color:#e9ebec;Fangfont(14);line-height:Fangsize(55);    text-align: justify;text-indent:Fangsize(28);
+    }
+    .BtnZhankaiBox{
+      width:Fangsize(130);height:Fangsize(60);position:absolute;bottom:0;right:0;padding:Fangsize(20) 0 0 Fangsize(20);
+      .BtnZhankaiText{
+        Fangfont(14);color:#5c99d4;
+      }
+      .zhankaiImage{
+        width:Fangsize(26);padding:Fangsize(6) 0 0 Fangsize(10);
+      }
+    }
+  }
+
+  .BtnClickExamBox{
+    width:90%;clear:both;margin:auto;height:Fangsize(120);
+    .BtnClickExam{
+      width:82%;height:Fangsize(66);line-height:Fangsize(66);background:#3b6eb6;color:#e9ebec;Fangfont(14);border-radius:Fangsize(8);text-align:center;
+    }
+    .BtnClickLink{
+      width:Fangsize(88);height:Fangsize(66);
+      img{
+        width:Fangsize(44);padding:Fangsize(14) Fangsize(22);
+      }
+    }
+  }
+
+}

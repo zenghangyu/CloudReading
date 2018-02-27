@@ -1,0 +1,101 @@
+.megessBox{
+  height:Fangsize(58);background:#243240;
+  padding:Fangsize(15) Fangsize(30);
+  margin-bottom:Fangsize(20);
+  .megessImg{
+     width:Fangsize(60);height:Fangszie(60);
+    img{
+      width:100%;
+    }
+  }
+  ul{
+    width:85.5%;padding:Fangsize(15) 0;margin-left:Fangsize(15);overflow-x:auto;-webkit-overflow-scrolling: touch;
+    li{
+      color:#e5e5f1;Fangfont(14);white-space:nowrap;
+    }
+  }
+}
+
+.contentBox{
+  .contentLeft{
+    width:30%;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    background:#243240;
+    ul{
+      li{
+        color:#e9ebec;
+        height:Fangsize(80);
+        line-height:Fangsize(80);
+        Fangfont(14);
+        &.OnAcive{
+          border-left:Fangsize(6) solid #3b6eb6;
+          color:#5d99ed !important;
+          background:#2c3e50;
+        }
+        p{
+          margin-left:Fangsize(30);
+        }
+      }
+    }
+  }
+
+  .contentRight{
+    width:70%;
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+    .dataListBox{
+      margin:0 Fangsize(20);
+      .dataList{
+        padding:Fangsize(20);
+        background:#243240;
+        height:Fangsize(240);
+        margin-bottom:Fangsize(20);
+        .ListBanner{
+          width:Fangsize(170);height:Fangsize(240);background:#1d252d;
+          img{
+            width:100%;height:Fangsize(240);
+          }
+        }
+        .Listcontent{
+          position:relative;
+          width:55%;
+          height:Fangsize(240);
+          margin-left:Fangsize(20);
+          .ListTitle{
+            Fangfont(14);color:#5c99d4;line-height:Fangsize(34);max-width:100%;overflow-x: auto;-webkit-overflow-scrolling: touch;white-space:nowrap;
+          }
+          .writerData,.CountWordData,.descriptionData{
+            color:#e9ebec;Fangfont(11);line-height:Fangsize(34);text-align:justify
+          }
+          .CountWordData,.writerData{
+            span{
+              display:inline-block;max-width:60%;overflow-x: auto;-webkit-overflow-scrolling: touch;position:relative;
+              top:Fangsize(12);margin-right:Fangsize(5);
+            }
+          }
+          .descriptionData{
+            height:Fangsize(65);
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+          }
+          .examclick{
+            background:#3b6eb6;display:inline-block;width:75%;height:Fangsize(46);color:#fff;text-align:center;line-height:Fangsize(46);border-radius:Fangsize(8);Fangfont(11);
+          }
+          .Btn_listBox{
+            position:absolute;width:100%;bottom:0;
+          }
+          .cartlink{
+            display:inline-block;height:Fangsize(40);width:Fangsize(44);position:absolute;right:0;top:Fangsize(5);
+            img{
+              width:100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

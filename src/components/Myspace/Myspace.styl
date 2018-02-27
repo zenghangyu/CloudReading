@@ -1,0 +1,155 @@
+.MyspaceGradeBox{
+  height:Fangsize(340);
+  padding:0 Fangsize(30);
+  background:#233547;
+  .MyspaceGrade{
+    position:relative;
+    height:Fangsize(340);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .Grade{
+      background:rgba(0,0,0,0);width:Fangsize(210);height:Fangsize(210);
+      border:0;
+      outline:none;
+      img{
+        width:100%;padding-top:Fangsize(6);
+      }
+    }
+    ul{
+      clear:both;width:100%;
+      li{
+        width:50%;text-align center;
+        p{
+          display:block;
+          clear:both;
+          &.SresultNumber{
+            color:#3fc7f7;Fangfont(16);height:Fangsize(60);line-height:Fangsize(60);
+          }
+          &.SresultTitle{
+            color:#f1f3f5;Fangfont(11);height:Fangsize(40);line-height:Fangsize(40);
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.MyspacelistBox{
+  .Myspacelist{
+    li{
+      position:relative;height:Fangsize(80);border-bottom:1px solid #44505e;line-height:Fangsize(80);padding:0 Fangsize(70) 0 Fangsize(30);
+      p{
+        Fangfont(14);color:#e2e4e4;margin-left:Fangsize(0);width:25%;
+      }
+      span{
+        Fangfont(14);color:#e2e4e4;display:inline-block;width:75%;text-align:right;overflow-x:auto;-webkit-overflow-scrolling: touch;
+      }
+      .ListArrows{
+        position:absolute;right:Fangsize(30);top:Fangsize(22);width:Fangsize(20);
+      }
+    }
+  }
+}
+
+.modifyPhoneBox{
+  width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.6);top:0;left:0;z-index:99;
+  .modifyPhone{
+    width:Fangsize(650);height:Fangsize(320);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#2c3e50;border-radius:Fangsize(8);
+    ul{
+      padding:Fangsize(60);
+      li{
+        width:100%;
+        .PhoneInputVBox{
+          border:1px solid #fff;background:#2c3e50;height:Fangsize(78);line-height:Fangsize(78);border-radius:Fangsize(8);position:relative;
+          img{
+            width:Fangsize(32);height:Fangsize(45);padding:Fangsize(15) Fangsize(20);
+          }
+          input{
+            background:#2c3e50;height:Fangsize(70);line-height:Fangsize(70);position:absolute;top:Fangsize(4);width:80%;Fangfont(14);color:#cccfd1;left:Fangsize(90);
+          }
+        }
+        &.CBtnBox{
+          margin:Fangsize(50) 0;
+          p{
+            width:45%;height:Fangsize(80);line-height:Fangsize(80);text-align:center;background:#4f83b6;Fangfont(16);color:#cccfd1;border-radius:Fangsize(8);
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.modifySchoolBox{
+  width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.6);top:0;left:0;z-index:99;
+  .modifySchool{
+    width:Fangsize(650);height:Fangsize(450);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#2c3e50;border-radius:Fangsize(8);
+    ul{
+      padding:Fangsize(60);
+      li{
+        width:100%;margin-bottom:Fangsize(30);
+        .modifySchoolTile{
+          color:#ebebeb;
+          display:inline-block;
+          width:Fangsize(150);
+          height:Fangsize(56);
+          line-height:Fangsize(56);
+          Fangfont(14);
+        }
+        input{
+          width:Fangsize(354);
+          vertical-align: middle;
+          height:Fangsize(56);
+          background:#2c3e50;
+          border:1px solid #888c8f;
+          border-radius:Fangsize(8);position:relative;
+          color:#ebebeb;
+          Fangfont(15);
+          padding:0 Fangsize(10);
+        }
+        .SchoolInputVBox,.TeacherInputVBox{
+          width:100%;
+        }
+        .SchoolInputV,.TeacherInputV{
+          border:1px solid #fff;background:#2c3e50;height:Fangsize(78);line-height:Fangsize(78);border-radius:Fangsize(8);position:relative;width:Fangsize(530);margin:auto
+        }
+        &.CBtnBox{
+          margin-top:Fangsize(10);
+          p{
+            width:45%;height:Fangsize(80);line-height:Fangsize(80);text-align:center;background:#4f83b6;Fangfont(16);color:#cccfd1;border-radius:Fangsize(8);
+          }
+        }
+      }
+    }
+
+  }
+}
+
+/*.modifyTeacherBox{
+  width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.6);top:0;left:0;z-index:99;
+  .modifyTeacher{
+    width:Fangsize(650);height:Fangsize(380);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#2c3e50;border-radius:Fangsize(8);
+    ul{
+      padding:Fangsize(60);
+      li{
+        width:100%;
+        .TeacherInputVBox{
+          width:100%;
+        }
+        .TeacherInputV{
+          border:1px solid #fff;background:#2c3e50;height:Fangsize(78);line-height:Fangsize(78);border-radius:Fangsize(8);position:relative;width:Fangsize(530);margin:auto
+        }
+        &.CBtnBox{
+          margin:Fangsize(80) 0;
+          p{
+            width:45%;height:Fangsize(80);line-height:Fangsize(80);text-align:center;background:#4f83b6;Fangfont(16);color:#cccfd1;border-radius:Fangsize(8);
+          }
+        }
+      }
+    }
+
+  }
+}*/

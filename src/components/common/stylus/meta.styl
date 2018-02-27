@@ -1,0 +1,39 @@
+Size=75
+Fangsize($Fang){
+   ($Fang/Size)rem
+}
+Fangfont($fs){
+  font-size:($fs)px
+  [data-dpr="2"] & {
+   font-size:($fs * 2)px
+  }
+  [data-dpr="3"] & {
+   font-size:($fs * 3)px
+  }
+}
+
+.wordtit{
+  Fangfont(14);
+}
+.radio{
+  display: block;
+  width: Fangsize(56);
+  height: Fangsize(56);
+  cursor: pointer;
+  margin: 0 auto;
+  background: url('~@/assets/icon/radio.png') left center no-repeat;
+  background-size: 80% !important;
+}
+.radio.on{
+  background: url('~@/assets/icon/radio_on.png') left center no-repeat;
+}
+
+.backBox{
+  width:100%;height:Fangsize(80);line-height:Fangsize(80);background:rgba(0,0,0,0.1);overflow:hidden;
+}
+.close_arrows{
+  width:Fangsize(39);height:Fangsize(72);padding: Fangsize(12) Fangsize(20) 0 Fangsize(20);
+  img{
+    width:55%;
+  }
+}

@@ -1,0 +1,56 @@
+.serachBox{
+  padding:Fangsize(15) Fangsize(30);width:92%;
+  .serachInputBox{
+    width:79%;height:Fangsize(78);line-height:Fangsize(78);color:#fff;background:#243240;border-radius:Fangsize(8);position:relative;
+    img{
+      width:Fangsize(40);height:Fangsize(40);margin:Fangsize(19);
+    }
+    .serachInput{
+      Fangfont(14);background:#243240;position:absolute;
+      top:Fangsize(9);left:Fangsize(80);height:Fangsize(60);width:80%;color:#fff;
+    }
+  }
+  #BtnSerach{
+    width:18%;background:#243240;height:Fangsize(78);line-height:Fangsize(78);border-radius:Fangsize(8);text-align:center;Fangfont(16);color:#fff;
+  }
+}
+
+.serachContentBox{
+  clear:both;display:none;overflow-y:auto;-webkit-overflow-scrolling: touch;
+  .ContentListData{
+    li{
+      padding:0 Fangsize(30);height:Fangsize(80);border-bottom:1px solid #44505e;color:#888c8f;Fangfont(14);position:relative;
+      .SContentData{
+        margin-left:Fangsize(85);height:Fangsize(80);line-height:Fangsize(80);width:85%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;
+      }
+      .icon_serach{
+        width:Fangsize(40);height:Fangsize(40);position:absolute;left:Fangsize(50);top:Fangsize(20);
+      }
+    }
+  }
+}
+
+.serachHistroyListBox{
+  clear:both;
+  .HistroyListTitle{
+    padding:0 Fangsize(30);height:Fangsize(60);line-height:Fangsize(60);border-bottom:1px solid #44505e;color:#7b7d80;Fangfont(14);
+  }
+  .HistroyListData{
+    overflow-y:auto;-webkit-overflow-scrolling: touch;
+    li{
+      padding:0 Fangsize(30);height:Fangsize(80);border-bottom:1px solid #44505e;color:#888c8f;Fangfont(14);position:relative;
+      .HistroyData{
+        margin-left:Fangsize(65);height:Fangsize(80);line-height:Fangsize(80);width:82%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;
+      }
+      .icon_histroy{
+        width:Fangsize(40);height:Fangsize(40);position:absolute;left:Fangsize(30);top:Fangsize(20);
+      }
+      .closeBox{
+        width:Fangsize(60);height:Fangsize(60);position:absolute;right:Fangsize(30);top:Fangsize(10);
+        .icon_close{
+          width:55%;padding: (45 / 2)% 0 (45 / 2)% (45)%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.meunBox{
+  //position:absolute;bottom:0;left:0;
+  width:100%;height:Fangsize(100);
+  background:#29343f;
+  border-top:1px solid #202932;
+  animation:meunBox 0.1s linear 0s 1;
+  -webkit-animation:meunBox 0.1s linear 0s 1; /*Safari and Chrome*/
+  ul{
+    width auto;
+    li{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:33.33%;
+      float:left;
+      padding-top:Fangsize(10);
+      img{
+        height:Fangsize(48);
+      }
+      span{
+        margin-top:Fangsize(10);
+        color:#b8b8b8;
+        Fangfont(12);
+      }
+    }
+  }
+}
+
+@keyframes meunBox{
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-webkit-keyframes meunBox{ /*Safari and Chrome*/
+  from {opacity:0;}
+  to {opacity:1;}
+}

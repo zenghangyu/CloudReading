@@ -1,0 +1,75 @@
+.examinationHeader{
+  padding:0 Fangsize(30) 0 0;height:Fangsize(80);Fangfont(14);color:#cccfd1;background:#192837;line-height:Fangsize(80);
+  p{
+    white-space:nowrap;
+  }
+  .chooseTimu{
+    width:27.5%;overflow-x:auto;-webkit-overflow-scrolling: touch;
+  }
+  .chengjiNum{
+    width:60%;text-align:right;overflow-x:auto;-webkit-overflow-scrolling: touch;
+  }
+  .ExamName,.ExaminationGrade{
+    //margin-right:Fangsize(30);
+  }
+}
+.TestQuestionsBoxBig{
+  overflow-y:auto;-webkit-overflow-scrolling: touch;clear:both;
+}
+.TestQuestionsBox{
+  padding:Fangsize(30);Fangfont(15);color:#7f94a8;
+  p{
+    text-align: justify;
+  }
+  .TestQuestionsTit{
+    line-height:Fangsize(50);color:#cccfd1;clear:both;
+    span{
+      display:inline-block;
+    }
+    .TestQuestionsTNum{
+      width:10%;
+    }
+    .TestQuestionsText{
+      width:83%;
+    }
+  }
+  .QuestionsChooseList{
+    padding:0 Fangsize(50);padding-top:Fangsize(30);clear:both;
+    li{
+      height:Fangsize(70);width:100%;line-height:Fangsize(70);border-radius:Fangsize(8);border:2px solid #7f94a8;margin-bottom:Fangsize(30);
+      .ChooseSorf{
+        width:10%;padding-left:Fangsize(20);
+      }
+      .ChooseTitle{
+        width:83%;overflow-x:auto;-webkit-overflow-scrolling: touch;white-space:nowrap;
+      }
+      &.OnActiveChoosed{
+        background:#3b6eb6 !important;border:2px solid #3b6eb6 !important;color:#cccfd1 !important;
+      }
+    }
+  }
+
+  .BtnQuestionsBox{
+    clear:both;
+    p{
+      width:33%;height:Fangsize(80);line-height:Fangsize(80);color:#f3f5f6;background:#4f83b6;Fangfong(16);text-align:center;border-radius:Fangsize(8);margin-top:Fangsize(50);margin-bottom:Fangsize(50);
+    }
+    .BtnQuestionsNullclick{
+      background:#aaa !important;
+    }
+    .BtnQuestionsPrev{
+      margin-left:Fangsize(50);
+    }
+    .BtnQuestionsNext{
+      margin-right:Fangsize(46);
+    }
+  }
+
+}
+
+.PanduanChooseBox,.DanChooseBox,.DuoChooseBox{
+  display:none;
+}
+/*.TestQuestionsListBox div:first-child{
+  display:block;
+}*/
