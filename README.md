@@ -1,6 +1,8 @@
-# school
+# CloudReading
 
-> A Vue.js project
+> 为孩童提供阅读书籍并且在线考试的平台
+
+![](GIF.gif)
 
 ## Build Setup
 
